@@ -3,6 +3,7 @@ package com.example.vhr.mapper;
 
 
 import com.example.vhr.model.Menu;
+import io.lettuce.core.dynamic.annotation.Param;
 
 import java.util.List;
 
@@ -19,7 +20,7 @@ public interface MenuMapper {
 
     int updateByPrimaryKey(Menu record);
 
-    List<Menu> getMenusByHrId(Integer hrid);
+    List<Menu> getMenusByHrId(@Param("hrid")Integer hrid);
 
     List<Menu> getAllMenusWithRole();
 
