@@ -12,9 +12,9 @@ spring:
 #    publisher-confirms: true
 #    publisher-returns: true
   redis:
-    host: 47.105.158.78
+    host: 101.200.210.89
     database: 0
-    port: 6399
+    port: 6379
     password:
   cache:
     cache-names: menus_cache
