@@ -2,7 +2,7 @@
 # @Desc java Spring Boot打包shell，集成了docker镜像及容器操作，可选分支脚本部署
 # @Author dsg_blue <dsg_blue@aliyun.com>
 PROJECT_VERSION=0.0.1-SNAPSHOT.jar
-PROJECT_NAME=spring_cloud_user
+PROJECT_NAME=vhr
 PROJECT_HOME=$PROJECT_ROOT/$PROJECT_NAME
 DOCKER_BUILD_HOME=$PROJECT_HOME/docker
 PROJECT_JAR=$PROJECT_HOME/core/target/core-$PROJECT_VERSION

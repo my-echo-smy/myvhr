@@ -32,4 +32,4 @@ function get_random_port() {
   echo "$PORT"
 }
 # 限定返回的端口范围，此端口范围对应阿里云的安全组开放的端口范围
-get_random_port 29000 30000
+#get_random_port 29000 30000
